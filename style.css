@@ -36,11 +36,19 @@ h1 {
 	font-style: normal;
 }
 
+h3 {
+	font-family: 'ttfirsneue';
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
 .button {
 	font-family: 'ttfirsneue';
-  background-color: #CC1126; /* Green */
+  background-color: #fff; /* Green */
   border: none;
-  color: white;
+  color: black;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -95,4 +103,11 @@ img.product-images {
 	border-radius: 25px;
 	background-position: left top;
 	background-repeat: repeat;
+}
+
+div.entry {
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
